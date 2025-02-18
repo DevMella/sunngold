@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Jost", sans-serif;
+    padding: 0;
+    margin: 0 ;
+}
+.top{
+    background-color: rgb(254, 242, 0);
+}
+.hero{
+    width: 100%;
+    background:  linear-gradient(rgba(254, 242, 0, 0.5), rgba(18, 0, 64, 0.8)),url('https://images.pexels.com/photos/433308/pexels-photo-433308.jpeg?auto=compress&cs=tinysrgb&w=1360&dpr=1');
+    height: 95vh;
+    background-position:center;
+}
+.navbar-brand{
+    width: 50px;
+}
+.navbar-brand img{
+    object-fit: cover !important;
+}
+nav{
+    border-radius: 60px;
+    background-color: white;
+    border: 1px solid rgb(254, 242, 0);
+}
+.fixed-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0px;
+    margin: 0px !important;
+    padding: 15px;
+}
+.nan h3{
+    font-size: 50px;
+    width: 700px;
+    text-align: center;
+}
+.nan{
+    width: 100%;
+    height: 82%;
+}
+.ahh {
+    background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 20px;
+}
+.cad {
+    width: 60px;
+}
+.cad img{
+    object-fit: cover;
+}
+.wa{
+    padding-top: 100px;
+}
+.section{
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.oun img{
+    border-radius: 10px;
+}
+.off h6{
+    color: rgb(241, 235, 116);
+    font-weight: 500;
+}
+.line{
+    width: 50px;
+    height: 2px;
+    background-color: rgb(254, 242, 0);
+}
+.box{
+    padding: 10px 8px 10px 8px;
+    width: 110px;
+    position: absolute;
+    margin-top: -19px;
+    height: 40px;
+    background-color: rgb(254, 242, 0);
+    border: 1px solid white;
+    border-radius: 6px;
+    margin-left: 20px;
+}
+.off h3{
+    font-size: 40px;
+}
+.wee{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(254, 242, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+@media (max-width:766px) {
+    .nan h3{
+        width: 100%;
+        font-size: 30px;
+    }
+    .mon{
+        padding-top: 50px;
+    }
+    .off h6{
+        padding-top: 40px;
+    }
+    .navbar-brand h6{
+        font-size: 14px;
+    }
+}
