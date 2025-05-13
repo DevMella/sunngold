@@ -95,7 +95,7 @@ nav{
     justify-content: center;
     border-radius: 50%;
 }
-.off button,.gov button,.tan button,.yee button{
+.off button,.gov button,.tan button,.yee button,.red button,.bazy button{
     padding: 11px 40px 11px 40px;
     border-radius: 30px;
     background-color: #CAF0F8;
@@ -390,6 +390,22 @@ nav{
   .red h6{
     color:rgb(73, 73, 73);
     line-height:24px;
+  }
+  .agi img{
+    border-radius: 10px;
+  }
+  .bazy input,.bazy textarea{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 30px;
+    resize: none;
+  }
+    ::placeholder{
+    color: black;
+  }
+  .rit{
+    width: 100px;
   }
 @media (max-width:766px) {
     .nan h3{
